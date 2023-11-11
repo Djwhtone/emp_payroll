@@ -21,7 +21,7 @@ public class PayrollTest1_1{
                System.out.println("Enter the hours worked by employee number " + employeeID[x]+":");
                hours = Integer.parseInt(payInfo.nextLine());
                if (hours < 0){
-                System.out.println("Hours must me less than 0!");
+                System.out.println("Hours must not be less than 0!");
                }
            }while (hours < 0);
                info1.setHours(x, hours);
